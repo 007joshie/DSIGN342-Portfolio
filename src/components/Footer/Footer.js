@@ -27,25 +27,21 @@ const Footer = () => {
       <FooterWrapper>
         <LinkList>
           <Slogan>
-            Made with{" "}
-            <span role="img" aria-label="sheep">
-              ❤️
-            </span>{" "}
-            by Manuel Cufré using Next.js
+            DSIGN342-21B
           </Slogan>
           <SocialContainer>
             <SocialIconsContainer>
-              <SocialIcons href="https://github.com/ManuC84" target="_blank">
+              <SocialIcons href="https://github.com/007joshie" target="_blank">
                 <AiFillGithub size="3rem" />
               </SocialIcons>
               <SocialIcons
-                href="https://www.linkedin.com/in/manuel-cufre/"
+                href="#"
                 target="_blank"
               >
                 <AiFillLinkedin size="3rem" />
               </SocialIcons>
               <SocialIcons
-                href="https://twitter.com/manuelcufre3"
+                href="#"
                 target="_blank"
               >
                 <AiFillTwitterCircle size="3rem" />

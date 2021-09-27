@@ -17,13 +17,14 @@ const GlobalStyles = createGlobalStyle`
   body {
     font-family: ${(props) => props.theme.fonts.main};
     font-size: 1.6rem;
-    background: ${(props) => props.theme.colors.background1};
+    background: background: rgb(2,0,36);
+    background: linear-gradient(352deg, rgba(2,0,36,1) 0%, rgba(61,9,121,1) 100%);;
     color: ${(props) => props.theme.colors.primary1};
     cursor: default;
 
   }
   h1,h2,h3,h4,h5,h6,button {
-    font-family: ${(props) => props.theme.fonts.title};
+    font-family: 'Lexend', sans-serif;
   }
   a {
     text-decoration: none;

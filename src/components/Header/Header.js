@@ -36,7 +36,7 @@ const Header = () => (
             alt="brand-logo"
             className="brand-logo"
           />
-          <Span className="brand-name">Manuel Cufré</Span>
+          <Span className="brand-name" style="font-weight:700;">Joshua Boag</Span>
         </a>
       </Link>
     </Div1>
@@ -61,16 +61,16 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/ManuC84" target="_blank">
+      <SocialIcons href="https://github.com/007joshie" target="_blank">
         <AiFillGithub size="3rem" />
       </SocialIcons>
       <SocialIcons
-        href="https://www.linkedin.com/in/manuel-cufre/"
+        href="#"
         target="_blank"
       >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://twitter.com/manuelcufre3" target="_blank">
+      <SocialIcons href="#" target="_blank">
         <AiFillTwitterCircle size="3rem" />
       </SocialIcons>
     </Div3>

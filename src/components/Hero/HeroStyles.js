@@ -35,7 +35,7 @@ export const HeroButton = styled.button`
     #6b8dd6,
     #8e37d7
   );
-  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  
 
   border-radius: 50px;
   moz-transition: all 0.8s ease-in-out;

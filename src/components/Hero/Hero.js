@@ -30,7 +30,7 @@ const Hero = () => (
       <motion.div variants={container} initial="hidden" animate="show">
         <motion.div variants={item}>
           <SectionTitle main center>
-            Hi! I'm Manu <br />
+            Kia Ora! I'm Josh.<br />
             Welcome To <br />
             My Portfolio
           </SectionTitle>
@@ -38,9 +38,7 @@ const Hero = () => (
 
         <motion.div variants={item}>
           <SectionText>
-            I'm a highly motivated Web-Developer who is passionate about
-            learning new technologies and working hard and smart to bring
-            awesome full-stack applications to life.
+            I am nearing the end of my third-year of studies at the University of Waikato. I am Studying Computer Science and Design. 
           </SectionText>
         </motion.div>
         <motion.div variants={item}>

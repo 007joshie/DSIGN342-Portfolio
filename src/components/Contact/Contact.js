@@ -73,7 +73,7 @@ const Contact = () => {
         <ContactContainer>
           <ContactInfo>
             <img
-              src="/images/photo-manu.jpg"
+              src="/images/brand-logo.png"
               alt="contact-photo"
               loading="lazy"
             />
@@ -83,20 +83,20 @@ const Contact = () => {
                 <InfoItem>
                   <AiOutlineMail />
                   <a
-                    href="mailto:mcufre84@gmail.com"
+                    href="mailto:joshua.boag@gmail.com"
                     style={{ textDecoration: 'none', color: 'white' }}
                   >
-                    <h5>contact@manuelcufre.com</h5>
+                    <h5>mailto:joshua.boag@gmail.com</h5>
                   </a>
                 </InfoItem>
                 <InfoItem>
                   <FiPhoneCall />
                   <a
-                    href="tel:+34680832169"
+                    href="tel:0800 838383"
                     style={{ textDecoration: 'none', color: 'white' }}
                   >
                     {' '}
-                    <h5>+34680832169</h5>
+                    <h5>+0800 838383</h5>
                   </a>
                 </InfoItem>
                 <InfoItem>
