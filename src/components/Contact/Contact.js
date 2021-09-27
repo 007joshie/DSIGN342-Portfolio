@@ -86,17 +86,7 @@ const Contact = () => {
                     href="mailto:joshua.boag@gmail.com"
                     style={{ textDecoration: 'none', color: 'white' }}
                   >
-                    <h5>mailto:joshua.boag@gmail.com</h5>
-                  </a>
-                </InfoItem>
-                <InfoItem>
-                  <FiPhoneCall />
-                  <a
-                    href="tel:0800 838383"
-                    style={{ textDecoration: 'none', color: 'white' }}
-                  >
-                    {' '}
-                    <h5>+0800 838383</h5>
+                    <h5>joshua.boag@gmail.com</h5>
                   </a>
                 </InfoItem>
                 <InfoItem>
@@ -104,11 +94,11 @@ const Contact = () => {
                     <MdLocationOn color="white" />
                   </IconContext.Provider>
                   <a
-                    href="https://goo.gl/maps/uyKNdPVwqSGkpSYZ9"
+                    href="#"
                     target="_blank"
                     style={{ textDecoration: 'none', color: 'white' }}
                   >
-                    <h5>Barcelona, Spain</h5>
+                    <h5>Hamilton, New Zealand</h5>
                   </a>
                 </InfoItem>
               </InfoItemContainer>
