@@ -22,8 +22,7 @@ export const GridContainer = styled.section`
   }
 `;
 export const BlogCard = styled.div`
-  border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  border-radius: 20px;
   text-align: center;
   width: 400px;
   transition: all 0.2s ease-in-out;
@@ -47,8 +46,8 @@ export const TitleContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;
-  padding: 0.5rem 1rem;
+  color: #white;
+  padding: 1.5rem 1rem 0rem 1rem;
   font-size: ${(props) => (props.title ? "3rem" : "2rem")};
 `;
 
@@ -72,7 +71,7 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 20px 50px;
+  padding: 0px 20px;
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
@@ -95,8 +94,8 @@ export const ExternalLinks = styled.a`
   font-size: 1.6rem;
   font-weight: 500;
   padding: 1rem 1.5rem;
-  background-color: #2a2a72;
-  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  width: 40%;
+  border: white 2px solid;
   background-size: 200% 100%;
   background-position: 100% 0;
   border-radius: 15px;
@@ -104,6 +103,7 @@ export const ExternalLinks = styled.a`
   margin-bottom: 10px;
   &:hover {
     background-position: 50% 0;
+    background-color: rgba(255,255,255,0.4);
   }
   &:active {
     transform: scale(1.1);

@@ -32,7 +32,7 @@ const Header = () => (
           }}
         >
           <img
-            src="/images/brand-logo.png"
+            src="/images/logo.svg"
             alt="brand-logo"
             className="brand-logo"
           />

@@ -18,7 +18,7 @@ const GlobalStyles = createGlobalStyle`
     font-family: ${(props) => props.theme.fonts.main};
     font-size: 1.6rem;
     background: background: rgb(2,0,36);
-    background: linear-gradient(352deg, rgba(2,0,36,1) 0%, rgba(61,9,121,1) 100%);;
+    background: linear-gradient(110deg, rgb(102, 45, 145) 0%, rgb(81, 82, 145) 100%);
     color: ${(props) => props.theme.colors.primary1};
     cursor: default;
 

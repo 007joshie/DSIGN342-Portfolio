@@ -8,7 +8,7 @@ const HeroImg = () => {
     <motion.div animate={{ scale: 1.1 }} transition={{ duration: 0.6 }}>
       <AvatarContainer>
         {svgBg.animatedBg}
-        <img src="/images/josh.png" alt="hero image" loading="eager" />
+        <img src="/images/logo.svg" alt="hero image" loading="eager" />
       </AvatarContainer>
     </motion.div>
   );

@@ -48,7 +48,7 @@ const Projects = () => (
               </CardInfo>
               <div>
                 <TitleContent>
-                  <h4 style={{ marginTop: 10, color: "#d0bb57" }}>Stack</h4>
+                  <h4 style={{ marginTop: 10, color: "#FFF" }}>Stack</h4>
                   <TagList>
                     {tags.map((tag, i) => (
                       <Tag key={i}>{tag}</Tag>
