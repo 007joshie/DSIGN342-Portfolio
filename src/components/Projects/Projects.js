@@ -48,7 +48,7 @@ const Projects = () => (
               </CardInfo>
               <div>
                 <TitleContent>
-                  <h4 style={{ marginTop: 10, color: "#FFF" }}>Stack</h4>
+                  <h4 style={{ marginTop: 20, color: "#FFF" }}>Tools Used</h4>
                   <TagList>
                     {tags.map((tag, i) => (
                       <Tag key={i}>{tag}</Tag>
@@ -57,12 +57,14 @@ const Projects = () => (
                 </TitleContent>
               </div>
               <UtilityList>
-                <ExternalLinks href={visit} target="_blank">
+                {visit.length > 1 && <ExternalLinks href={visit} target="_blank">
                   Visit
                 </ExternalLinks>
-                <ExternalLinks href={source} target="_blank">
+                }
+                {source.length > 1 && <ExternalLinks href={source} target="_blank">
                   Code
                 </ExternalLinks>
+                }
               </UtilityList>
             </BlogCard>
           </SlideUpWhenVisible>

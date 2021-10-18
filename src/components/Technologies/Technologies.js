@@ -22,7 +22,13 @@ const Technologies = () => (
     <SectionSubTitle main>About</SectionSubTitle>
     <SlideUpWhenVisible>
       <SectionText>
-        DESC
+        I'm Josh, a learner, a designer and creative. I aim to be at the forefront of the intersect between design and technology. I am passionate for all things tech.
+        <br/>
+        <br/>
+        During my past three years at the University of Waikato I have developed the necessary skills to advance my creative and technical endeavours. I am in the unique position of being both technically minded with a creative mindset. On the creative side I have learned design principles and software such as Illustrator and Indesign. On the Technical side I have gain a deep understanding of programming concepts and languages.
+        <br/>
+        <br/>
+        When I am not studying I enjoy being active in the great outdoors. My happy place is walking to music in new locations. When not working or studying, you can find me creating artwork.
       </SectionText>
     </SlideUpWhenVisible>
     <SlideUpWhenVisible>
@@ -58,6 +64,16 @@ const Technologies = () => (
           </ListContainer>
         </ListItem>
       </List>
+    </SlideUpWhenVisible>
+    <SectionDivider />
+    <SectionSubTitle main>Experience</SectionSubTitle>
+    <SlideUpWhenVisible>
+      <SectionText>
+        Two Years working as a demostrator at the University of Waikato.
+        <br/>
+        <br/>
+        I have seven years experience volunteering as a lighting director at two churches.
+      </SectionText>
     </SlideUpWhenVisible>
   </Section>
 );
